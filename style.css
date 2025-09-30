@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --bg-color: #1E1E1E;
+    --bg-text: #fff;
+}
+
+body {
+    background-color: var(--bg-color);
+    background-image: url(/img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 30%;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 80px;
+
+    nav {
+        display: flex;
+        gap: 30px;
+
+        a {
+            color: var(--bg-text);
+        }
+
+    }
+
+       .icons {
+            & i {
+                color: #fff;
+            }
+        }
+
+}
